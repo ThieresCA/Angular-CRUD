@@ -1,0 +1,29 @@
+<h1 mat-dialog-title>{{titleModal}}</h1>
+
+<mat-divider></mat-divider>
+<div mat-dialog-content>
+<form [formGroup] = "companyForm">
+    <p class="info">INFORMAÇÕES GERAIS</p>
+    <p class="form">
+      <mat-form-field appearance="outline">
+        <mat-label>CÓDIGO</mat-label>
+        <input type="number" formControlName="companyId" matInput placeholder="" />
+        <mat-icon matSuffix>list</mat-icon>
+      </mat-form-field>                
+  
+      <mat-form-field appearance="outline">
+        <mat-label>NOME</mat-label>
+        <input formControlName="companyName" matInput placeholder="" />
+      </mat-form-field>
+    </p>
+</form>
+</div>
+<section>
+  <div class="example-button-row">
+    <div class="example-flex-container">
+      <button class="btn-create" mat-raised-button (click)="addCompany()" color="primary">{{actionBtn}}</button>
+      <button mat-raised-button mat-dialog-close color="accent">{{actionBtnNo}}</button>
+    </div>
+  </div>
+</section>
+<mat-divider></mat-divider>

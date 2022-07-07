@@ -1,0 +1,29 @@
+{
+  "companyList": [
+    {
+      "companyId": 1,
+      "companyName": "ES - Litoral Têxtil",
+      "id": 1
+    },
+    {
+      "companyId": 2,
+      "companyName": "Maioral Têxtil",
+      "id": 2
+    },
+    {
+      "companyId": 3,
+      "companyName": "Além Mar",
+      "id": 3
+    },
+    {
+      "companyId": 4,
+      "companyName": "PE - Litoral Têxtil",
+      "id": 4
+    },
+    {
+      "companyId": 5,
+      "companyName": "SC - Litoral Têxtil",
+      "id": 5
+    }
+  ]
+}
